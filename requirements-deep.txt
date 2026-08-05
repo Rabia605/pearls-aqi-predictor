@@ -1,0 +1,8 @@
+# Deep-learning extras — only needed to run the LSTM benchmark
+# (ml/pipelines/train_lstm.py). Kept separate so the hourly/CI workflows stay
+# lean and don't install TensorFlow.
+#
+#   pip install -r requirements.txt -r requirements-deep.txt
+#
+# CPU build; on Linux/CI plain `tensorflow` also works.
+tensorflow-cpu>=2.16

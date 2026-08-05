@@ -1,0 +1,33 @@
+{
+  "_comment": "Single source of truth for the cities Nafas forecasts. Read by ml/common/cities.py (Python). To add a city: append here, run `python -m ml.pipelines.backfill --cities <id>`, then retrain.",
+  "cities": [
+    {
+      "id": "lahore",
+      "name": "Lahore",
+      "country": "Pakistan",
+      "lat": 31.5497,
+      "lon": 74.3436,
+      "timezone": "Asia/Karachi",
+      "featured": true
+    },
+    {
+      "id": "karachi",
+      "name": "Karachi",
+      "country": "Pakistan",
+      "lat": 24.8607,
+      "lon": 67.0011,
+      "timezone": "Asia/Karachi",
+      "featured": true
+    },
+    {
+      "id": "islamabad",
+      "name": "Islamabad",
+      "country": "Pakistan",
+      "lat": 33.6844,
+      "lon": 73.0479,
+      "timezone": "Asia/Karachi",
+      "featured": true
+    }
+  ]
+}
+

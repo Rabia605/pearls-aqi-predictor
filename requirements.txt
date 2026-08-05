@@ -1,0 +1,17 @@
+# --- Data ingestion + smoke test ---
+requests>=2.31
+python-dotenv>=1.0
+
+# --- Feature engineering + storage (Hopsworks) ---
+# NOTE: pandas is pinned to 2.2.3 on purpose — this machine's Windows Smart App
+# Control blocks the newest pandas 3.x binaries by reputation. 2.2.3 is trusted.
+pandas==2.2.3
+hopsworks
+
+# --- Training pipeline ---
+scikit-learn>=1.5
+joblib>=1.3
+
+# --- Later phases (install when we reach them) ---
+# tensorflow             # deep-learning (LSTM) model
+# shap                   # explainability (SHAP)

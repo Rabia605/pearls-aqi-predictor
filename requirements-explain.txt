@@ -1,0 +1,7 @@
+# Explainability + analysis extras (SHAP explanations, EDA charts).
+# Kept out of requirements.txt so the hourly feature/inference workflow stays
+# lean; the daily training workflow installs these on top.
+#
+#   pip install -r requirements.txt -r requirements-explain.txt
+shap>=0.45
+matplotlib>=3.8
