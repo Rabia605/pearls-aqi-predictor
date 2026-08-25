@@ -1,0 +1,7 @@
+# Dependencies for the forecast API. Kept separate from the root requirements so
+# the hourly and daily pipelines don't install a web server they never use.
+fastapi>=0.110
+uvicorn[standard]>=0.27
+hopsworks
+python-dotenv>=1.0
+pandas
