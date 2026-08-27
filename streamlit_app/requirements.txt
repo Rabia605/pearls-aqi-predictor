@@ -1,0 +1,10 @@
+# Dependencies for the Streamlit dashboard.
+# Kept separate from the root requirements.txt so the hourly/CI workflows don't
+# install Streamlit they never use.
+streamlit>=1.40
+pandas==2.2.3
+hopsworks
+python-dotenv>=1.0
+plotly>=5.0.0
+pyarrow
+matplotlib
