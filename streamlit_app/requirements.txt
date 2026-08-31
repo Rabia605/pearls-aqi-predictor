@@ -2,7 +2,7 @@
 # Kept separate from the root requirements.txt so the hourly/CI workflows don't
 # install Streamlit they never use.
 streamlit>=1.40
-pandas==2.2
+pandas==2.3.3
 python-dotenv>=1.0
 plotly>=5.0.0
 pyarrow
