@@ -13,6 +13,7 @@ jobs:
       AQICN_TOKEN: ${{ secrets.AQICN_TOKEN }}
       OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
       HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
+      HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME || 'pearls' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
