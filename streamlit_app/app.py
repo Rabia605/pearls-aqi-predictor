@@ -2397,6 +2397,6 @@ else:
 
 st.html(f"""
     <div class="site-footer">
-        {APP_NAME.upper()} · DATA FROM AQICN, OPENWEATHER AND OPEN-METEO · INFORMATIONAL ONLY, NOT MEDICAL ADVICE
+        {APP_NAME.upper()} · © 2026 Rabia Noreen · All Rights Reserved
     </div>
     """)

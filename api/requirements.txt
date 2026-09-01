@@ -5,3 +5,4 @@ uvicorn[standard]>=0.27
 hopsworks
 python-dotenv>=1.0
 pandas
+pyarrow>=14.0.0

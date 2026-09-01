@@ -6,6 +6,7 @@ python-dotenv>=1.0
 # NOTE: pandas is pinned to 2.2.3 on purpose — this machine's Windows Smart App
 # Control blocks the newest pandas 3.x binaries by reputation. 2.2.3 is trusted.
 pandas==2.2.3
+pyarrow>=14.0.0
 hopsworks
 
 # --- Training pipeline ---
