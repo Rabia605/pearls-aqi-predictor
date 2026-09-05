@@ -18,7 +18,7 @@ def run_feature_pipeline(window_days: int = DEFAULT_WINDOW_DAYS) -> pd.DataFrame
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
-    end = date.today()
+    end = date.today() - timedelta(days=2)
     start = end - timedelta(days=window_days)
     client = OpenMeteoClient()
 
